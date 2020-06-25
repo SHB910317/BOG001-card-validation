@@ -16,11 +16,9 @@ const validator = {
       }  
     }
     if(acumulador%10==0){
-      return true;
-  }else{
-    return false;
+      return true;  
   }
-           
+  return false;         
   },
      maskify:(creditCardNumber) =>{ 
       let array = Array.from(creditCardNumber);
